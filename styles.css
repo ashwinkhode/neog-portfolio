@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --red: #f6533d;
+  --blue: #428dff;
+  --green: #41cd47;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif, Roboto;
+  font-size: 10px;
+}
+
+body {
+  padding: 5rem 10rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--red) !important;
+}
+
+header {
+  margin-bottom: 8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--black);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+.hero {
+  width: 65rem;
+}
+
+.hero h1 {
+  margin-bottom: 8rem;
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--red);
+}
+
+.hero p {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.vector img {
+  height: 400px;
+  object-fit: cover;
+}
+
+main {
+  margin-bottom: 6rem;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+.contact {
+  font-weight: 700;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  margin: 2rem;
+  width: 40rem;
+}
+
+.block h1 {
+  color: var(--red);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.block p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 1px 2px 4px rgba(246, 80, 61, 0.2);
+}
+
+#code {
+  background-color: rgba(246, 80, 61, 0.2);
+}
